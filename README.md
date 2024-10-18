@@ -2,6 +2,9 @@
 
 ## Web Vehicles
 
+## Deploy do projeto
+[[DEPLOY]](https://webvehicle-eaf88.web.app/)
+
 <br>
 
 ## 💻 Tecnologias Utilizadas nesse Projeto
@@ -25,6 +28,7 @@
 - Criação de post do veiculo ,exclusão, detalhes e carregamento dos veiculos.
 - Autenticação de usuario, dashboard com somente veiculos do usuario.
 - Interação com API do WhatsAPP , cliente consegue entrar em contato com o vendedor.
+- Deploy/hospedagem do projeto- firebase.
 - Utilizado ContextAPI para armazenar informações globais.
 - Armazenamento de dados: Firestore e firestore storage para as imagens.
 
@@ -47,6 +51,5 @@ Configurar seu config firebase de acordo com o do seu console-firebase.
 <br>
 
 <br>
-## Deploy do projeto utiliznado o firebase
-[[lojadev-c3.web.app](https://lojadev-c3.web.app/)](https://webvehicle-eaf88.web.app/)
+
 <br>
