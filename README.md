@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Sistema Web - FULLSTACK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Web Vehicles
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tecnologias Utilizadas nesse Projeto
+<div style="display: inline_block">
+  <img align="center" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" height="50" width="60" src="https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png">
+  <img align="center" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg">
+</div>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Especificações
+- Node: 20.13.1
+- Pacote de Gerenciamento de Dependências: NPM
+- Framework: ReactJS
 
-- Configure the top-level `parserOptions` property like this:
+<br>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Descrição do projeto
+- Sistema web para aluguel ou compra de veiculos.
+- Criação de post do veiculo ,exclusão, detalhes e carregamento dos veiculos.
+- Autenticação de usuario, dashboard com somente veiculos do usuario.
+- Interação com API do WhatsAPP , cliente consegue entrar em contato com o vendedor.
+- Utilizado ContextAPI para armazenar informações globais.
+- Armazenamento de dados: Firestore e firestore storage para as imagens.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<br>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como instalar as dependências
+$ npm install
+
+
+## Rodar o Projeto
+$ npm run dev
+
+## Projetos com variaveis local!
+Configurar seu config firebase de acordo com o do seu console-firebase.
+
+
+<br>
+
+<br>
+
+<br>
+## Deploy do projeto utiliznado o firebase
+[[lojadev-c3.web.app](https://lojadev-c3.web.app/)](https://webvehicle-eaf88.web.app/)
+<br>
